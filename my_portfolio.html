@@ -5,5 +5,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <!-- 상단 -->
+    <header>
+      <nav class="nav">
+        <h1>포트폴리오 과제</h1>
+        <ul>
+          <li><a href="#home">홈</a></li>
+          <li><a href="#intro">소개</a></li>
+          <li><a href="#projects">프로젝트</a></li>
+          <li><a href="#contact">연락처</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 중단 -->
+    <main>
+      <!-- 홈 -->
+      <section id="home">
+        <h1>안녕하세요, 도전과 성장을 좋아하는 김멋사입니다.</h1>
+        <p>웹 개발과 디자인에 열정을 가지고 있습니다</p>
+      </section>
+      <!-- 소개 -->
+      <section id="intro">
+        <h2>소개</h2>
+        <div class="intro-content">
+          <div class="profile">
+            <img src="img/image_profile.png" alt="프로필 이미지" />
+          </div>
+          <div class="intro-text">
+            <h3>자기소개</h3>
+            <p>
+              안녕하세요! 도전과 성장을 좋아하는 김멋사입니다. 사용자 경험을
+              중요시하며, 깔끔하고 효율적인 코드를 작성하기 위해 노력합니다.
+            </p>
+            <div class="skills">
+              <h3>기술 스택</h3>
+              <img
+                src="img/skills/AndroidStudio-Light.svg"
+                alt="AndroidStudio"
+              />
+              <img src="img/skills/MySQL-Light.svg" alt="MySQL" />
+              <img src="img/skills/Spring-Light.svg" alt="Spring" />
+              <img src="img/skills/Kubernetes.svg" alt="Kubernetes" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- 프로젝트 -->
+      <section id="projects">
+        <h2>프로젝트</h2>
+        <div class="projects-content">
+          <div class="project">
+            <h3>프로젝트1</h3>
+            <p>간단한 설명이 들어갑니다.</p>
+          </div>
+          <div class="project">
+            <h3>프로젝트2</h3>
+            <p>간단한 설명이 들어갑니다.</p>
+          </div>
+          <div class="project">
+            <h3>프로젝트3</h3>
+            <p>간단한 설명이 들어갑니다.</p>
+          </div>
+        </div>
+      </section>
+      <!-- 연락처 -->
+      <section id="contact">
+        <h2>연락처</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>연락 정보</h3>
+            <p>
+              <img src="img/icon_email.png" alt="Email Icon" />
+              email@example.com
+            </p>
+            <p>
+              <img
+                src="img/icon_github.png"
+                alt="Github Icon"
+              />github.com/username
+            </p>
+          </div>
+          <form class="contact-form">
+            <input type="text" placeholder="이름" />
+            <input type="email" placeholder="이메일" />
+            <textarea name="메시지"></textarea>
+            <button type="submit">보내기</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- 하단 -->
+    <footer>
+      <p>© 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
