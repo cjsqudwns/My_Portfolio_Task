@@ -9,7 +9,7 @@ body {
 }
 /* 상단 */
 header {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.8); /* 흰색 배경에 50% 투명 */
   width: 100%;
   position: fixed;
   top: 0;
@@ -19,7 +19,7 @@ nav.topbar {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding: 25px 10%;
+  padding: 13px 10%;
 }
 .nav-list {
   display: flex;
@@ -43,8 +43,15 @@ nav.topbar {
 /* 홈 */
 #home {
   background-color: lightcyan;
+  background-image: linear-gradient(
+    to right,
+    white,
+    rgb(194, 198, 251)
+  ); /* 좌→우 */
+
   height: 100px;
   padding-top: 50px;
+  margin-top: 50px;
   align-items: center;
   text-align: center;
 }
@@ -54,7 +61,7 @@ nav.topbar {
 /* 소개 */
 #intro {
   padding: 50px 15px;
-  max-width: 1300px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .intro-content {
